@@ -199,6 +199,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Hubbl;
 				TargetAttributes = {
+					293D351F192F047B00F6B9DA = {
+						DevelopmentTeam = NA6N424SWY;
+					};
 					293D3540192F047B00F6B9DA = {
 						TestTargetID = 293D351F192F047B00F6B9DA;
 					};
@@ -376,10 +379,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: SOL STUDIOS LLC";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestJenkins/TestJenkins-Prefix.pch";
 				INFOPLIST_FILE = "TestJenkins/TestJenkins-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "FD1B52D8-272F-4FF4-9B78-B2D4C19A7534";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,10 +394,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: SOL STUDIOS LLC";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestJenkins/TestJenkins-Prefix.pch";
 				INFOPLIST_FILE = "TestJenkins/TestJenkins-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "FD1B52D8-272F-4FF4-9B78-B2D4C19A7534";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
